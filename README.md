@@ -24,7 +24,7 @@ pip install pynq
 ## Install hls4ml
 Run the below command to install the correct branch along with the dependencies:  
 ```
-pip install git+https://github.com/selwyn96/hls4ml.git@Alveo_backend_u250#egg=hls4ml[profiling]
+pip install git+https://github.com/selwyn96/hls4ml.git@alveo_dev#egg=hls4ml[profiling]
 ```
 ## Neural network IP and binary generation
 Following the notebook the IP can be generated (with axi stream interface) and the .xclbin file can be generated here (this should take ~1h).  
